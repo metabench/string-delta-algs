@@ -1,0 +1,11 @@
+{
+    "name": "string-delta-algs",
+    "main": "string_delta.js",
+    "license": "MIT",
+    "dependencies": {
+        
+        "textdiff-create": "^1.1.8",
+        "textdiff-patch": "^1.1.7"
+    },
+    "version": "0.0.1"
+}
