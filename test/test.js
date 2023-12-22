@@ -12,7 +12,9 @@ test('Short sphinx strings', () => {
 
     const test_a_b = (a, b) => {
         const d = dp.create(a, b);
-        console.log('d', d);
+        console.log('string delta json', JSON.stringify(d));
+
+        console.log('delta json l', JSON.stringify(d).length);
 
         const b2 = dp.apply(a, d);
         //console.log('b2 === b', b2 === b); // does it work?
